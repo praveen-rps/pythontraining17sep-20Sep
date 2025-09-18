@@ -1,0 +1,132 @@
+Python UserDefined Methods
+---------------------------
+Method or Function : is a set of code which will perform a specific task 
+when it is called.
+
+named source code
+
+When we want the same set of task to be used again and again
+
+
+print("Hello");  ---> Displays the Hello on the console
+
+a = input("enter a value') ----> reads the value from the keyboard and assigns to variable
+
+Methods wil abstract the internal code
+
+
+s1
+s2
+s3
+s4
+s5
+
+Bye
+
+s1
+s2
+s3
+s4
+s5
+
+
+
+
+s11
+s21
+s32
+s42
+s52
+
+s11
+s21
+s32
+s42
+s52
+
+
+1. system defined or pre defined methdos
+
+2. user defined functions /methods
+
+
+ncr = n! / (n-r)! * r!
+
+6c2 = 6! / 4! * 2!
+
+read the n and r values
+find the n factorial 
+find the n-r factoria
+find the r factorial
+
+fact1 = 1
+for i in range(1,n+1):
+	fact1 = fact1 * i
+
+fact2 = 1
+for i in range(1,(n-r)+1):
+	fact2 = fact2 * i
+
+fact3 = 1
+for i in range(1,r+1):
+	fact3 = fact3 * i
+
+
+ncr = fact1 / fact2 * fact3
+
+
+def fact(n):
+	//
+	//calculate the factorial for n 
+	// and return the value
+
+
+ncr = fact(n) / fact(n-r) * fact(r)
+
+
+sytnax:
+
+def function_name(arguments):
+	//actual body of the method
+	// return value
+
+
+def display():
+	print("THis is the first line in display method")
+	print("This is the second line in display method")
+	print("This is the third line in display method")
+
+
+
+display()
+display()
+
+1. functions with return type and with arguments
+2. function with return type and without agruments
+3. functions without return type and with arguments
+4. functions without return type and without arguments
+
+A function can have any number of arguments but will return only one value
+
+def sample(a,b,c,d,e,f,g):
+	data = [1,2,3,4]
+	data2 = [4,5,6,7,8]
+	return data
+
+sample(102,,,,,,,)
+
+
+Variable  Argument methods
+--------------------------
+
+
+
+
+
+
+
+
+
+
+
+

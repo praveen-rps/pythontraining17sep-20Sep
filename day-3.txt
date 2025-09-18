@@ -118,15 +118,39 @@ sample(102,,,,,,,)
 
 Variable  Argument methods
 --------------------------
+A module is  collection of python methods, variables and classes
+
+A package is a collection of modules
+
+sys --> sys.py ---> colleciton of some methods, variables and class
+system specific paramters and functions
+
+
+os--> Interact with the operating system (files, directories, env variables)
+
+math --> work mathemtaical functions
+
+datetime ---> 
+json
+re 
+collections 
+platform 
+
+Sys module in python provides access to system specific parameters and functions
 
 
 
+Recursion is the process of calling a function by itself,
+we must explicitly mention the termination condition
+
+def fact():
+	print("Inside the fact method")
+	fact()
+
+fact()
 
 
-
-
-
-
-
+Inside the fact method
+"Inside the fact method"
 
 

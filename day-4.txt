@@ -1,0 +1,96 @@
+Access Modifiers
+-----------------
+Access modifiers provide the visibility of the variables, methods and classes from a package or from a class
+
+1. public
+
+2. private
+
+c or C++
+---------
+public void display(){
+	// statements
+}
+
+private void otp(){
+
+// statements;
+}
+
+
+1. public
+2. private
+3. protected --- Associate only with classes
+
+Exception Handling
+-------------------
+Two types of errors will occur for a program
+
+
+1. Compile time errors -- will occur only due to wrong program lang syntax and it 
+is easily identified.
+
+2. Runtime time errors -- 
+
+ a, b
+
+
+a = int(input("Enter a value"))
+b = int(input("Enter b value"))
+c = a / b
+print(c)
+
+The process of handling the run time errors (exceptions) is called exception handling
+
+try:
+//we will write all the actual code
+
+except:
+
+// we will the codewhen exception occurs
+finally:
+
+// code that is executed mandatorily
+
+
+try:
+	a = int(input("Enter a value"))
+	b = int(input("Enter b value"))
+	c = a/b
+	print(c)
+except:
+	print("You have entered zero for denonimotr, so please re enter b != 0")
+	b = int(input("enter b value"))
+	c = a/b
+	print(c)
+finally:
+	print("All done")
+	
+
+
+raise:
+------
+
+raise is a keyword which is used to throw an exception without (system defined the condition )
+is met
+
+raise is used to explicitly raise the exception without that is actually met
+
+When we want to define the userdefined excpetions
+
+age  = int(input("Enter age of a person"))
+print("The person age is ", age)
+
+
+
+Useful Modules for  Applications:
+
+1. math
+2. random
+3. platform
+
+
+
+
+
+

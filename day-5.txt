@@ -1,0 +1,160 @@
+OOPS - Object Oriented Programing Systems
+
+
+1. Procedure Oriented
+2. Object Oriented
+3. Logic Programing
+4. Scripting
+5. Functional Programing
+
+
+OOPS --> java, dotnet, python, c++
+
+It is making the programing lang as if it behaves like a real time entity
+
+1. class -- is a blue print of objects or a class is a collection of entities
+   having the similar properties
+
+   generalized 
+   logical entity
+
+2. object -- Is an instance of the class
+   specific
+   real time entity
+
+without a class object cannot exists
+if an object exists then def a class will exists
+
+
+Flower ---> class
+Rose , Lily , Lotus --> Objects
+
+Book --> class
+Java Book, Python Book,
+SQL book
+
+
+3. inheritance - Ability to acquire the properties from one class to another class
+   for code reusability
+
+class 2D Object-- length and breadth ---> properties
+
+class 3D Objects -- length, breadth, height(width)  
+
+4. polymorphism - Ability of an entity to exists in more than one form
+
+   print("Hello") ----> Hello
+   print(4+10) ---> 14
+
+5. abstraction - Selective hiding and selective display of the data or methods 
+   is called data abstraction or method abstraction
+
+
+syntax:
+
+class <classname>:
+     variable assignments
+     methods
+
+
+class Shape:
+    height=1
+    def calArea(self):
+      self.length=10
+      self.breadth=20
+      print(self.length*self.breadth)
+
+
+objname = classname()
+
+s1 = Shape()
+s2 = Shape()
+s2.length=40
+print(s1.length) --> 
+
+print(s1.height)--> 1
+print(s2.height)-->1
+s2.height=20
+print(s1.height)--> 20
+
+print(s1.length)--> 10
+print(s1.breadth)--> 20
+s1.calArea()--> 200
+
+
+print(s2.length)--> 10
+print(s2.breadth)--> 20
+s2.calArea()--> 200
+
+
+
+constructor - is a special method which will be called automatically when ever the object
+is created
+
+def __init__(self):  ---> constructor
+
+__str__
+     
+
+
+Encapsulation is the process of combining the data and methods together indise a class.
+
+Encapsulation is used to provide security or safety to the data
+
+
+Access Modifiers in Python
+--------------------------
+Provide the level of security or accessibility to the data and methods
+
+1. public  --- no restriction -  data or methods can by accessed anywhere
+
+2. private --- full restriction -- data or methods cannot be accessed anywhere except in the
+class in which it is defined (__variable)
+
+__salary=10000
+
+_dept = "finance"
+
+
+desg = "Manager"
+
+3. protected -- Accessible only in the inherited classes
+
+
+
+Inheritance - Is the process of acquiring the properties from one class to another class
+
+
+
+1. single inheritance
+
+2. multilevel inheritance
+
+3. multiple inheritance
+
+4. Hierarchical inheritance
+
+5. Hybrid Inheritance
+
+
+super() 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

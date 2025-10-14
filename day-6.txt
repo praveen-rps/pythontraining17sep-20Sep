@@ -1,0 +1,124 @@
+
+1. class
+2. Object
+3. Encapsulation
+4. Inheritance
+5. Polymorphism
+6. Abstraction
+
+base class ----------give properties ------------> derived
+(parent)					   (child)
+
+1. single
+2. Mutlilevel
+3. Multiple 
+4. Hierarchical
+5. Hybrid
+
+Access Modifiers
+----------------
+1. Private --This data or methods can be accessed only in the class not anywhere outside
+2. Public --- This data or methods can be accessed anywhere 
+3. Protected -- This data or methods can be accessed only in the inherited classes
+
+constructors
+-------------
+Is a special method in class which will be automatically called when the object is created
+
+def __init__(self)
+
+__str__
+__dict__
+__add__
+
+
+
+
+Polymorphism
+------------
+Poly - Many 
+morphism - forms
+
+The ability of an entity to exists in more than one form is called Polymorphsim
+
+
+
+In Java and C++ --> Compile time and Runtime Polymorphism
+
+In Python --> Polymorphsim
+
+1. Duck typing (Dynamic typing)
+
+x = 10 
+
+x = "Hello"
+
+x = [1,2,3,4,5]
+
+
+
+2. Operator Overloading
+
+
+3. Method  Overriding - Is the process of suppressing the base class method in the derived class
+when both of them are having the same name 
+
+
+ Base -----------> derived
+(m1) ------------> m1 
+
+obj for derived class
+
+m1 -->  one copy from base class
+m1 -->  another copy from derived class
+
+m1()
+
+4. Method Overloading  -- A method is said to be overloaded, iff two or more methods
+have the same name and if they have diff number of parameters then these methods are said
+to be overloaded
+
+def m1(a):
+    
+
+m1(10)
+m1(10,20)
+m1(10,20,30)
+
+
+
+Private Members
+---------------
+
+
+encapsulation -- It is the binding of data and methods together inside a class
+no data should be allowed to access directly without refering to its methods
+
+All the instance variables should be declared as private and 
+public methods should be written to set and get the values from the private variables
+
+__dict__ : is a dict attribute that stores all the writable attributes (variables and methods)
+of an object or class
+
+
+__init__
+__str__
+__add__
+__dict__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
